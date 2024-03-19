@@ -1,0 +1,61 @@
+@media (min-width:325px) and (max-width:425px) {
+
+    .center {
+        width: 375px;
+        height: 735px;
+
+        &__top {
+            text-align: center;
+            padding-top: 239px;
+            padding-left: 16px;
+            width: 343px;
+        }
+    }
+
+    .title {
+        width: 323px;
+
+        &__content {
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 39px;
+            text-align: center;
+        }
+    }
+
+    .title2 {
+        width: 343px;
+        padding-bottom: 33px;
+
+        &__content {
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+
+    .menu {
+    width: 375px;
+    height: 1221px;
+        &__game{
+            display: flex;
+            flex-direction: column;
+            padding-left: 16px;
+        }
+
+        &__game1 {
+            width: 343px;
+            height: 300px;
+            border-radius: 18px;
+
+        }
+
+    }
+
+
+
+
+}

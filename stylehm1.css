@@ -3,24 +3,19 @@
   padding: 0;
 }
 
-.top {
-  padding-left: 120px;
+.center {
   height: 1024px;
   background-image: url(hw1img/pro20771.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.top__menu {
-  height: 556px;
-  background-image: url(hw1img/game.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.center__top {
+  padding-left: 120px;
+  padding-top: 217px;
 }
 
 .title {
-  padding-top: 217px;
   width: 789px;
 }
 .title__content {
@@ -70,24 +65,27 @@
   color: #ffffff;
   text-decoration: none;
 }
-
 .title2__link1:hover {
   text-decoration: underline;
   font-weight: 700;
 }
-
-
-
 .title2__link2 {
   font-family: Montserrat;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
   color: #ffffff;
 }
 
+.menu {
+  height: 556px;
+  background-image: url(hw1img/game.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .menu__game {
   padding-top: 128px;
   display: flex;
@@ -117,4 +115,52 @@
 
 div#Up {
   position: relative;
+}
+
+@media (min-width: 325px) and (max-width: 425px) {
+  .center {
+    width: 375px;
+    height: 735px;
+  }
+  .center__top {
+    text-align: center;
+    padding-top: 239px;
+    padding-left: 16px;
+    width: 343px;
+  }
+  .title {
+    width: 323px;
+  }
+  .title__content {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: center;
+  }
+  .title2 {
+    width: 343px;
+    padding-bottom: 33px;
+  }
+  .title2__content {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+  }
+  .menu {
+    width: 375px;
+    height: 1221px;
+  }
+  .menu__game {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+  }
+  .menu__game1 {
+    width: 343px;
+    height: 300px;
+    border-radius: 18px;
+  }
 }/*# sourceMappingURL=stylehm1.css.map */
