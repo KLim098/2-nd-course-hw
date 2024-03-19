@@ -29,7 +29,7 @@ else {
 // Задание 4
 let a = '2';
 let b = '3';
-alert(Number(a) + Number(b));
+console.log(Number(a) + Number(b));
 
 // Задание 4
 let monthNumber = prompt('Введите порядковый номер месяца')
@@ -83,7 +83,7 @@ switch (monthNumber) {
 
         break;
 
-    default: 
-    alert ('Хочешь придумать новый месяц?')
+    default:
+        alert('Хочешь придумать новый месяц?')
         break;
 }
